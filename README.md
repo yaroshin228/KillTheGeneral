@@ -9,6 +9,7 @@
 
 ## Сборка
 ```bash
-g++ -o kill-the-general kill-the-general.cpp
-./kill-the-general
+cd KillTheGeneral
+mkdir build && cd build
+cmake ..
 ```
